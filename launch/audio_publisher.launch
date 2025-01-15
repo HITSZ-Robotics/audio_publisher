@@ -1,0 +1,13 @@
+<launch>
+    <!-- Launch the audio_publisher node -->
+    <node
+        name="audio_publisher"
+        pkg="audio_publisher"
+        type="audio_publisher_node_main"
+        output="screen">
+        
+        <!-- Parameter settings -->
+        <param name="save_wav" value="false" />
+        <param name="topic_name" value="audio_stream" /> <!-- Add custom topic name -->
+    </node>
+</launch>
