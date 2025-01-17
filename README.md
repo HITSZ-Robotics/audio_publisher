@@ -1,5 +1,6 @@
 # Audio Publisher Node
-
+![Whisper ROS1 Node](https://user-images.githubusercontent.com/your_placeholder_image_link.jpeg)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 The **Audio Publisher Node** is a ROS (Robot Operating System) node designed to capture audio data from a microphone, publish it as a ROS topic, and optionally save it to a WAV file. It also supports playing the received audio in real time.
 
 This package contains a ROS node that subscribes to audio data and optionally saves it to a WAV file. It also plays the received audio in real time.
@@ -106,6 +107,4 @@ Example:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
 
-For more information about the Whisper ROS1 project, visit the [Whisper ROS1 repository](https://).
