@@ -8,7 +8,7 @@ AudioPublisher::AudioPublisher(const std::string &topic_name, bool save_wav) :
     save_wav_file(save_wav),
     topic_name(topic_name) { // Initialize topic name
     ros::NodeHandle nh;
-    pub = nh.advertise<std_msgs::Float32MultiArray>(topic_name, 1000); // Use custom topic name
+    pub = nh.advertise<std_msgs::Float32MultiArray>(topic_name, 1); // Use custom topic name
 
     PaError err = Pa_Initialize();
     if (err != paNoError) {

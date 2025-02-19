@@ -35,7 +35,7 @@ Before running the node, you need to install the following dependencies:
 1. Clone this repository into your ROS workspace:
    ```bash
    cd ~/catkin_ws/src
-   git clone 
+   git clone https://github.com/zzl410/audio_publisher.git
    ```
 
 2. Build the package:
@@ -106,6 +106,4 @@ Example:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
 
-For more information about the Whisper ROS1 project, visit the [Whisper ROS1 repository](https://).
