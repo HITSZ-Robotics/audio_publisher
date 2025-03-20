@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/3086f7b6-1980-4c05-b58a-1c9ff978e7ce
 
 ## About
 
-This code is part of the **Whisper ROS1** project, which integrates OpenAI's Whisper speech recognition model with ROS1 for real-time audio processing and transcription. For more details about the project, please visit the [Whisper ROS1 repository](https://github.com/zzl410/whisper_ros1).
+This code is part of the **Whisper ROS1** project, which integrates OpenAI's Whisper speech recognition model with ROS1 for real-time audio processing and transcription. For more details about the project, please visit the [Whisper ROS1 repository](https://github.com/HITSZ-Robotics/whisper_ros1).
 
 ---
 
@@ -35,7 +35,7 @@ Before running the node, you need to install the following dependencies:
 1. Clone this repository into your ROS workspace:
    ```bash
    cd ~/catkin_ws/src
-   git clone https://github.com/zzl410/audio_publisher.git
+   git clone https://github.com/HITSZ-Robotics/audio_publisher.git
    ```
 
 2. Build the package:
